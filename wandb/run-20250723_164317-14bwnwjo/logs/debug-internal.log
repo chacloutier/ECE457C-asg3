@@ -1,0 +1,16 @@
+{"time":"2025-07-23T16:43:17.57343-04:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-23T16:43:17.792681-04:00","level":"INFO","msg":"stream: created new stream","id":"14bwnwjo"}
+{"time":"2025-07-23T16:43:17.792712-04:00","level":"INFO","msg":"stream: started","id":"14bwnwjo"}
+{"time":"2025-07-23T16:43:17.792723-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"14bwnwjo"}
+{"time":"2025-07-23T16:43:17.792909-04:00","level":"INFO","msg":"handler: started","stream_id":"14bwnwjo"}
+{"time":"2025-07-23T16:43:17.793045-04:00","level":"INFO","msg":"sender: started","stream_id":"14bwnwjo"}
+{"time":"2025-07-23T16:43:29.063049-04:00","level":"WARN","msg":"tensorboard: no root directory","error":"timed out after 10s"}
+{"time":"2025-07-23T16:43:29.064279-04:00","level":"INFO","msg":"tensorboard: tracking new log directory","rootDir":{},"logDir":"LocalOrCloudPath(LocalPath=\"/Users/charlottecloutier/Documents/4A/ECE457C/asg3/rl_logs/DQN_highway-fast-v0_run_0/DQN_14\")","namespace":""}
+{"time":"2025-07-23T16:43:29.065686-04:00","level":"INFO","msg":"tensorboard: saving file","fileLocation":"/Users/charlottecloutier/Documents/4A/ECE457C/asg3/rl_logs/DQN_highway-fast-v0_run_0/DQN_14/events.out.tfevents.1753303399.Charlottes-MacBook-Pro.local.96082.0","runPath":"rl_logs/DQN_highway-fast-v0_run_0/DQN_14/events.out.tfevents.1753303399.Charlottes-MacBook-Pro.local.96082.0"}
+{"time":"2025-07-23T16:43:30.276245-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-23T16:43:30.455003-04:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-07-23T16:43:30.461765-04:00","level":"INFO","msg":"stream: closing","id":"14bwnwjo"}
+{"time":"2025-07-23T16:43:30.462096-04:00","level":"INFO","msg":"sender: closed","stream_id":"14bwnwjo"}
+{"time":"2025-07-23T16:43:30.462517-04:00","level":"INFO","msg":"handler: closed","stream_id":"14bwnwjo"}
+{"time":"2025-07-23T16:43:30.462717-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":"14bwnwjo"}
+{"time":"2025-07-23T16:43:30.462995-04:00","level":"INFO","msg":"stream: closed","id":"14bwnwjo"}
