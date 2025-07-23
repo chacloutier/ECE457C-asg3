@@ -17,6 +17,10 @@ from wandb.integration.sb3 import WandbCallback
 import traceback
 import random
 
+print("Using GPU:", torch.cuda.is_available())
+if torch.cuda.is_available():
+    print("Device:", torch.cuda.get_device_name(0))
+
 
 def generate_funny_name():
     adjectives = [
