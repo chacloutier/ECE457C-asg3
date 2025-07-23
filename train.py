@@ -253,7 +253,14 @@ if __name__ == "__main__":
                     episode_trigger=lambda ep: ep % 10 == 0
                 )
 
-                model = algo_config["model"]("MlpPolicy", current_train_env, verbose=0, tensorboard_log=run_log_dir, **hparams)
+                model = algo_config["model"](
+                    "MlpPolicy",
+                    current_train_env,
+                    verbose=0,
+                    tensorboard_log=run_log_dir,
+                    device="cuda",  
+                    **hparams
+                )
 
                 eval_callback = EvalCallback(
                     current_eval_env,
