@@ -89,7 +89,7 @@ ALGORITHMS = {
     }
 }
 
-TOTAL_TIMESTEPS = int(5e4) # Total timesteps for each training run
+TOTAL_TIMESTEPS = int(1e6) # Total timesteps for each training run
 EVAL_FREQ = 5000          # Evaluate every N timesteps
 N_EVAL_EPISODES = 10      # Number of episodes for evaluation
 LOG_DIR = "./rl_logs"     # Directory for TensorBoard logs and saved models
