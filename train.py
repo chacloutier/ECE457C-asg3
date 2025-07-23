@@ -123,7 +123,14 @@ def train_and_evaluate(algorithm_name, env_id, model_class, hyperparams, total_t
     # Determine policy based on action space (MlpPolicy is common for most observations)
     policy_type = "MlpPolicy"
 
-    model = model_class(policy_type, train_env, verbose=0, tensorboard_log=log_dir, **hyperparams)
+    model = algo_config["model"](
+        policy_type,
+        current_train_env,
+        verbose=0,
+        tensorboard_log=run_log_dir,
+        device="cuda",  # <<< force GPU usage if available
+        **hparams
+    )
 
     # Create evaluation environment
     eval_env = create_env(env_id)
