@@ -90,7 +90,7 @@ ALGORITHMS = {
 }
 
 TOTAL_TIMESTEPS = int(1e6) # Total timesteps for each training run
-EVAL_FREQ = 5000          # Evaluate every N timesteps
+EVAL_FREQ = 10000          # Evaluate every N timesteps
 N_EVAL_EPISODES = 10      # Number of episodes for evaluation
 LOG_DIR = "./rl_logs"     # Directory for TensorBoard logs and saved models
 
@@ -261,6 +261,18 @@ if __name__ == "__main__":
                     device="cuda",  
                     **hparams
                 )
+
+                print(f"Stable Baselines3 model device: {model.device}")
+                # Check device of one of the model's parameters to be extra sure
+                # The exact attribute might vary slightly based on the algorithm (DQN vs PPO/SAC)
+                if hasattr(model.policy, 'parameters'): # Common for PPO/SAC
+                    for name, param in model.policy.named_parameters():
+                        print(f"  First policy parameter '{name}' device: {param.device}")
+                        break # Only check one to avoid too much output
+                elif hasattr(model, 'q_net'): # Specific to DQN (Q-network)
+                     for name, param in model.q_net.named_parameters():
+                        print(f"  First Q-network parameter '{name}' device: {param.device}")
+                        break
 
                 eval_callback = EvalCallback(
                     current_eval_env,
