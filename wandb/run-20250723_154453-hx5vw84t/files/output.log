@@ -1,0 +1,29 @@
+/Users/charlottecloutier/Documents/4A/venv/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /Users/charlottecloutier/Documents/4A/ECE457C/asg3/rl_logs/DQN_highway-fast-v0_run_0/videos folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+Eval num_timesteps=5000, episode_reward=4.29 +/- 2.65
+Episode length: 5.40 +/- 2.73
+New best mean reward!
+Eval num_timesteps=10000, episode_reward=7.34 +/- 3.96
+Episode length: 8.50 +/- 4.03
+New best mean reward!
+Eval num_timesteps=15000, episode_reward=8.37 +/- 3.67
+Episode length: 9.60 +/- 3.90
+New best mean reward!
+Eval num_timesteps=20000, episode_reward=7.55 +/- 5.57
+Episode length: 8.70 +/- 5.92
+Eval num_timesteps=25000, episode_reward=7.01 +/- 2.77
+Episode length: 8.00 +/- 2.86
+Eval num_timesteps=30000, episode_reward=6.04 +/- 2.85
+Episode length: 7.10 +/- 3.08
+Eval num_timesteps=35000, episode_reward=6.34 +/- 3.91
+Episode length: 7.60 +/- 4.05
+Eval num_timesteps=40000, episode_reward=7.12 +/- 2.92
+Episode length: 8.20 +/- 2.99
+Eval num_timesteps=45000, episode_reward=10.77 +/- 6.49
+Episode length: 13.30 +/- 8.75
+New best mean reward!
+Eval num_timesteps=50000, episode_reward=7.11 +/- 2.84
+Episode length: 8.40 +/- 3.10
+Training of DQN on highway-fast-v0 finished.
+  Run 1 HParams: {'learning_rate': 0.0001}, Mean Reward (Best Model): 9.98
+  New best found for DQN on highway-fast-v0: Mean Reward = 9.98

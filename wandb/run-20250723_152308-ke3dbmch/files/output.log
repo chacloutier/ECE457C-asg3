@@ -1,0 +1,7 @@
+  Error during training run 1 for DQN on highway-fast-v0 with HParams {'learning_rate': 0.0001}:
+Traceback (most recent call last):
+  File "/Users/charlottecloutier/Documents/4A/ECE457C/asg3/train.py", line 286, in <module>
+    current_eval_env.close()
+  File "/Users/charlottecloutier/Documents/4A/venv/lib/python3.10/site-packages/wandb/integration/gym/__init__.py", line 74, in close
+    if not self.enabled:
+AttributeError: 'RecordVideo' object has no attribute 'enabled'

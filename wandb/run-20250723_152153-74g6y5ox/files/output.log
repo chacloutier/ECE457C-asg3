@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/Users/charlottecloutier/Documents/4A/ECE457C/asg3/train.py", line 216, in <module>
+    current_eval_env = Monitor(
+TypeError: Monitor.__init__() got an unexpected keyword argument 'video_callable'

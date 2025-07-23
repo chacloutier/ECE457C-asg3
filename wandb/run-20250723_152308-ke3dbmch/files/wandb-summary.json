@@ -1,0 +1,1 @@
+{"_timestamp":1.753298656636309e+09,"rollout/ep_rew_mean":6.967937,"train/learning_rate":0.0001,"train/loss":0.015395141,"rollout/exploration_rate":0.05076,"time/fps":77,"_runtime":67,"global_step":4996,"error_message":"","_wandb":{"runtime":67},"rollout/ep_len_mean":8.17,"_step":866,"final/status":"failed"}

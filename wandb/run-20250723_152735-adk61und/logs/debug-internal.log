@@ -1,0 +1,16 @@
+{"time":"2025-07-23T15:27:35.84079-04:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-23T15:27:36.05224-04:00","level":"INFO","msg":"stream: created new stream","id":"adk61und"}
+{"time":"2025-07-23T15:27:36.052276-04:00","level":"INFO","msg":"stream: started","id":"adk61und"}
+{"time":"2025-07-23T15:27:36.052298-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"adk61und"}
+{"time":"2025-07-23T15:27:36.052694-04:00","level":"INFO","msg":"sender: started","stream_id":"adk61und"}
+{"time":"2025-07-23T15:27:36.052716-04:00","level":"INFO","msg":"handler: started","stream_id":"adk61und"}
+{"time":"2025-07-23T15:27:47.131994-04:00","level":"WARN","msg":"tensorboard: no root directory","error":"timed out after 10s"}
+{"time":"2025-07-23T15:27:47.132764-04:00","level":"INFO","msg":"tensorboard: tracking new log directory","rootDir":{},"logDir":"LocalOrCloudPath(LocalPath=\"/Users/charlottecloutier/Documents/4A/ECE457C/asg3/rl_logs/DQN_highway-fast-v0_run_0/DQN_9\")","namespace":""}
+{"time":"2025-07-23T15:27:47.134008-04:00","level":"INFO","msg":"tensorboard: saving file","fileLocation":"/Users/charlottecloutier/Documents/4A/ECE457C/asg3/rl_logs/DQN_highway-fast-v0_run_0/DQN_9/events.out.tfevents.1753298857.Charlottes-MacBook-Pro.local.90605.0","runPath":"rl_logs/DQN_highway-fast-v0_run_0/DQN_9/events.out.tfevents.1753298857.Charlottes-MacBook-Pro.local.90605.0"}
+{"time":"2025-07-23T15:28:41.119548-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-23T15:28:41.306657-04:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-07-23T15:28:41.314861-04:00","level":"INFO","msg":"stream: closing","id":"adk61und"}
+{"time":"2025-07-23T15:28:41.31511-04:00","level":"INFO","msg":"sender: closed","stream_id":"adk61und"}
+{"time":"2025-07-23T15:28:41.315578-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":"adk61und"}
+{"time":"2025-07-23T15:28:41.315593-04:00","level":"INFO","msg":"handler: closed","stream_id":"adk61und"}
+{"time":"2025-07-23T15:28:41.315698-04:00","level":"INFO","msg":"stream: closed","id":"adk61und"}

@@ -1,0 +1,16 @@
+{"time":"2025-07-23T15:29:47.055573-04:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-23T15:29:47.253796-04:00","level":"INFO","msg":"stream: created new stream","id":"gnkm2pnv"}
+{"time":"2025-07-23T15:29:47.253827-04:00","level":"INFO","msg":"stream: started","id":"gnkm2pnv"}
+{"time":"2025-07-23T15:29:47.253835-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"gnkm2pnv"}
+{"time":"2025-07-23T15:29:47.25387-04:00","level":"INFO","msg":"handler: started","stream_id":"gnkm2pnv"}
+{"time":"2025-07-23T15:29:47.253839-04:00","level":"INFO","msg":"sender: started","stream_id":"gnkm2pnv"}
+{"time":"2025-07-23T15:29:57.561487-04:00","level":"WARN","msg":"tensorboard: no root directory","error":"timed out after 10s"}
+{"time":"2025-07-23T15:29:57.561596-04:00","level":"INFO","msg":"tensorboard: tracking new log directory","rootDir":{},"logDir":"LocalOrCloudPath(LocalPath=\"/Users/charlottecloutier/Documents/4A/ECE457C/asg3/rl_logs/DQN_intersection-v0_run_0/DQN_2\")","namespace":""}
+{"time":"2025-07-23T15:29:57.561754-04:00","level":"INFO","msg":"tensorboard: saving file","fileLocation":"/Users/charlottecloutier/Documents/4A/ECE457C/asg3/rl_logs/DQN_intersection-v0_run_0/DQN_2/events.out.tfevents.1753298987.Charlottes-MacBook-Pro.local.90605.2","runPath":"rl_logs/DQN_intersection-v0_run_0/DQN_2/events.out.tfevents.1753298987.Charlottes-MacBook-Pro.local.90605.2"}
+{"time":"2025-07-23T15:31:06.334968-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-23T15:31:06.541712-04:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-07-23T15:31:06.549466-04:00","level":"INFO","msg":"stream: closing","id":"gnkm2pnv"}
+{"time":"2025-07-23T15:31:06.549572-04:00","level":"INFO","msg":"handler: closed","stream_id":"gnkm2pnv"}
+{"time":"2025-07-23T15:31:06.549618-04:00","level":"INFO","msg":"sender: closed","stream_id":"gnkm2pnv"}
+{"time":"2025-07-23T15:31:06.549593-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":"gnkm2pnv"}
+{"time":"2025-07-23T15:31:06.550868-04:00","level":"INFO","msg":"stream: closed","id":"gnkm2pnv"}

@@ -1,0 +1,1 @@
+{"eval/mean_reward":8.482445,"_wandb":{"runtime":169},"rollout/ep_rew_mean":6.4988365,"rollout/exploration_rate":0.05,"eval/mean_ep_length":9.8,"_runtime":169.636863916,"rollout/ep_len_mean":7.69,"_timestamp":1.753297485941292e+09,"_step":2192,"time/fps":74,"global_step":12543,"train/learning_rate":0.0001,"train/loss":0.045227025}

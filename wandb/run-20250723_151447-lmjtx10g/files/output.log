@@ -1,0 +1,51 @@
+/Users/charlottecloutier/Documents/4A/venv/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /Users/charlottecloutier/Documents/4A/ECE457C/asg3/rl_logs/DQN_highway-fast-v0_run_0/videos folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+Eval num_timesteps=5000, episode_reward=7.93 +/- 3.95
+Episode length: 9.20 +/- 4.21
+New best mean reward!
+Eval num_timesteps=10000, episode_reward=9.16 +/- 6.65
+Episode length: 10.40 +/- 6.74
+New best mean reward!
+Traceback (most recent call last):
+  File "/Users/charlottecloutier/Documents/4A/ECE457C/asg3/train.py", line 251, in <module>
+    model.learn(total_timesteps=TOTAL_TIMESTEPS, callback=[eval_callback, wandb_callback])
+  File "/Users/charlottecloutier/Documents/4A/venv/lib/python3.10/site-packages/stable_baselines3/dqn/dqn.py", line 267, in learn
+    return super().learn(
+  File "/Users/charlottecloutier/Documents/4A/venv/lib/python3.10/site-packages/stable_baselines3/common/off_policy_algorithm.py", line 328, in learn
+    rollout = self.collect_rollouts(
+  File "/Users/charlottecloutier/Documents/4A/venv/lib/python3.10/site-packages/stable_baselines3/common/off_policy_algorithm.py", line 560, in collect_rollouts
+    new_obs, rewards, dones, infos = env.step(actions)
+  File "/Users/charlottecloutier/Documents/4A/venv/lib/python3.10/site-packages/stable_baselines3/common/vec_env/base_vec_env.py", line 222, in step
+    return self.step_wait()
+  File "/Users/charlottecloutier/Documents/4A/venv/lib/python3.10/site-packages/stable_baselines3/common/vec_env/dummy_vec_env.py", line 59, in step_wait
+    obs, self.buf_rews[env_idx], terminated, truncated, self.buf_infos[env_idx] = self.envs[env_idx].step(  # type: ignore[assignment]
+  File "/Users/charlottecloutier/Documents/4A/venv/lib/python3.10/site-packages/stable_baselines3/common/monitor.py", line 94, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/Users/charlottecloutier/Documents/4A/venv/lib/python3.10/site-packages/gymnasium/wrappers/common.py", line 393, in step
+    return super().step(action)
+  File "/Users/charlottecloutier/Documents/4A/venv/lib/python3.10/site-packages/gymnasium/core.py", line 327, in step
+    return self.env.step(action)
+  File "/Users/charlottecloutier/Documents/4A/venv/lib/python3.10/site-packages/gymnasium/wrappers/common.py", line 285, in step
+    return self.env.step(action)
+  File "/Users/charlottecloutier/Documents/4A/ECE457C/asg3/HighwayEnvMod/highway_env/envs/common/abstract.py", line 235, in step
+    self._simulate(action)
+  File "/Users/charlottecloutier/Documents/4A/ECE457C/asg3/HighwayEnvMod/highway_env/envs/common/abstract.py", line 257, in _simulate
+    self.road.act()
+  File "/Users/charlottecloutier/Documents/4A/ECE457C/asg3/HighwayEnvMod/highway_env/road/road.py", line 328, in act
+    vehicle.act()
+  File "/Users/charlottecloutier/Documents/4A/ECE457C/asg3/HighwayEnvMod/highway_env/vehicle/behavior.py", line 101, in act
+    action['acceleration'] = self.acceleration(ego_vehicle=self,
+  File "/Users/charlottecloutier/Documents/4A/ECE457C/asg3/HighwayEnvMod/highway_env/vehicle/behavior.py", line 150, in acceleration
+    max(ego_vehicle.speed, 0) / abs(utils.not_zero(ego_target_speed)), self.DELTA))
+  File "/Users/charlottecloutier/Documents/4A/ECE457C/asg3/HighwayEnvMod/highway_env/utils.py", line 43, in not_zero
+    def not_zero(x: float, eps: float = 1e-2) -> float:
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/charlottecloutier/Documents/4A/ECE457C/asg3/train.py", line 283, in <module>
+    current_eval_env.close()
+  File "/Users/charlottecloutier/Documents/4A/venv/lib/python3.10/site-packages/wandb/integration/gym/__init__.py", line 74, in close
+    if not self.enabled:
+AttributeError: 'RecordVideo' object has no attribute 'enabled'

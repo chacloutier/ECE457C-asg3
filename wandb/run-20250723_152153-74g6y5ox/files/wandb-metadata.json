@@ -1,0 +1,13 @@
+{
+  "os":  "macOS-15.5-arm64-arm-64bit",
+  "python":  "CPython 3.10.0",
+  "startedAt":  "2025-07-23T19:21:53.582186Z",
+  "program":  "/Users/charlottecloutier/Documents/4A/ECE457C/asg3/train.py",
+  "codePath":  "train.py",
+  "codePathLocal":  "train.py",
+  "email":  "ccloutier@uwaterloo.ca",
+  "root":  "/Users/charlottecloutier/Documents/4A/ECE457C/asg3",
+  "host":  "Charlottes-MacBook-Pro.local",
+  "executable":  "/Users/charlottecloutier/Documents/4A/venv/bin/python3",
+  "writerId":  "fqwiw7nncsydq4sgibabcdxln9gwyeic"
+}

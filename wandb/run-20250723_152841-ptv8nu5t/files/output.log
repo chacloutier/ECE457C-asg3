@@ -1,0 +1,4 @@
+/Users/charlottecloutier/Documents/4A/venv/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /tmp/wandb-videos folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+[34m[1mwandb[0m: [33mWARNING[0m When using several event log directories, please call `wandb.tensorboard.patch(root_logdir="...")` before `wandb.init`
+  Error during training run 1 for PPO on highway-fast-v0 with HParams {'learning_rate': 0.0003}:

@@ -1,0 +1,16 @@
+{"time":"2025-07-23T15:59:18.931097-04:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-23T15:59:19.141745-04:00","level":"INFO","msg":"stream: created new stream","id":"3izx1nk6"}
+{"time":"2025-07-23T15:59:19.141772-04:00","level":"INFO","msg":"stream: started","id":"3izx1nk6"}
+{"time":"2025-07-23T15:59:19.141791-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"3izx1nk6"}
+{"time":"2025-07-23T15:59:19.141843-04:00","level":"INFO","msg":"handler: started","stream_id":"3izx1nk6"}
+{"time":"2025-07-23T15:59:19.142095-04:00","level":"INFO","msg":"sender: started","stream_id":"3izx1nk6"}
+{"time":"2025-07-23T15:59:30.24784-04:00","level":"WARN","msg":"tensorboard: no root directory","error":"timed out after 10s"}
+{"time":"2025-07-23T15:59:30.247947-04:00","level":"INFO","msg":"tensorboard: tracking new log directory","rootDir":{},"logDir":"LocalOrCloudPath(LocalPath=\"/Users/charlottecloutier/Documents/4A/ECE457C/asg3/rl_logs/DQN_highway-fast-v0_run_0/DQN_13\")","namespace":""}
+{"time":"2025-07-23T15:59:30.248465-04:00","level":"INFO","msg":"tensorboard: saving file","fileLocation":"/Users/charlottecloutier/Documents/4A/ECE457C/asg3/rl_logs/DQN_highway-fast-v0_run_0/DQN_13/events.out.tfevents.1753300760.Charlottes-MacBook-Pro.local.92020.0","runPath":"rl_logs/DQN_highway-fast-v0_run_0/DQN_13/events.out.tfevents.1753300760.Charlottes-MacBook-Pro.local.92020.0"}
+{"time":"2025-07-23T16:09:52.985298-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-23T16:09:53.243898-04:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-07-23T16:09:53.253008-04:00","level":"INFO","msg":"stream: closing","id":"3izx1nk6"}
+{"time":"2025-07-23T16:09:53.253097-04:00","level":"INFO","msg":"handler: closed","stream_id":"3izx1nk6"}
+{"time":"2025-07-23T16:09:53.253144-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":"3izx1nk6"}
+{"time":"2025-07-23T16:09:53.253165-04:00","level":"INFO","msg":"sender: closed","stream_id":"3izx1nk6"}
+{"time":"2025-07-23T16:09:53.253387-04:00","level":"INFO","msg":"stream: closed","id":"3izx1nk6"}

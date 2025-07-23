@@ -1,0 +1,3 @@
+/Users/charlottecloutier/Documents/4A/venv/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /tmp/wandb-videos folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+  Error during training run 1 for DQN on highway-fast-v0 with HParams {'learning_rate': 0.0001}:

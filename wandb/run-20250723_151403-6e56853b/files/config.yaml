@@ -1,0 +1,45 @@
+_wandb:
+    value:
+        cli_version: 0.21.0
+        e:
+            9j50fx475y75wcz4entih9wvs1zhmqt0:
+                codePath: train.py
+                codePathLocal: train.py
+                email: ccloutier@uwaterloo.ca
+                executable: /Users/charlottecloutier/Documents/4A/venv/bin/python3
+                host: Charlottes-MacBook-Pro.local
+                os: macOS-15.5-arm64-arm-64bit
+                program: /Users/charlottecloutier/Documents/4A/ECE457C/asg3/train.py
+                python: CPython 3.10.0
+                root: /Users/charlottecloutier/Documents/4A/ECE457C/asg3
+                startedAt: "2025-07-23T19:14:03.737666Z"
+                writerId: 9j50fx475y75wcz4entih9wvs1zhmqt0
+        m: []
+        python_version: 3.10.0
+        t:
+            "1":
+                - 1
+            "2":
+                - 1
+            "3":
+                - 13
+                - 16
+                - 35
+            "4": 3.10.0
+            "5": 0.21.0
+            "12": 0.21.0
+            "13": darwin-arm64
+algo:
+    value: DQN
+env_id:
+    value: highway-fast-v0
+eval_freq:
+    value: 5000
+learning_rate:
+    value: 0.0001
+n_eval_episodes:
+    value: 10
+run_index:
+    value: 0
+total_timesteps:
+    value: 50000

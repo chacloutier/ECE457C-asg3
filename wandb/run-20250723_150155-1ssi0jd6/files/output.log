@@ -1,0 +1,6 @@
+Eval num_timesteps=5000, episode_reward=6.54 +/- 5.42
+Episode length: 7.50 +/- 5.33
+New best mean reward!
+Eval num_timesteps=10000, episode_reward=8.48 +/- 5.07
+Episode length: 9.80 +/- 5.10
+New best mean reward!

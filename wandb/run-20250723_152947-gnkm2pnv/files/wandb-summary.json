@@ -1,0 +1,1 @@
+{"_timestamp":1.7532990659023502e+09,"time/fps":42,"train/learning_rate":0.0001,"_wandb":{"runtime":78},"train/loss":0.35242575,"_runtime":78.515689834,"_step":590,"rollout/exploration_rate":0.36692,"global_step":3332,"rollout/ep_rew_mean":3.323141,"rollout/ep_len_mean":8.01}

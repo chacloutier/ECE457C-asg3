@@ -1,0 +1,132 @@
+/Users/charlottecloutier/Documents/4A/venv/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /Users/charlottecloutier/Documents/4A/ECE457C/asg3/rl_logs/DQN_highway-fast-v0_run_0/videos folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+Eval num_timesteps=5000, episode_reward=7.99 +/- 3.78
+Episode length: 9.10 +/- 3.94
+New best mean reward!
+Eval num_timesteps=10000, episode_reward=8.37 +/- 4.66
+Episode length: 9.60 +/- 4.67
+New best mean reward!
+Eval num_timesteps=15000, episode_reward=6.16 +/- 3.04
+Episode length: 7.30 +/- 3.10
+Eval num_timesteps=20000, episode_reward=6.14 +/- 3.81
+Episode length: 7.20 +/- 3.79
+Eval num_timesteps=25000, episode_reward=7.86 +/- 3.07
+Episode length: 9.00 +/- 3.19
+Eval num_timesteps=30000, episode_reward=8.92 +/- 4.60
+Episode length: 10.20 +/- 4.89
+New best mean reward!
+Eval num_timesteps=35000, episode_reward=8.62 +/- 5.77
+Episode length: 10.10 +/- 5.99
+Eval num_timesteps=40000, episode_reward=11.59 +/- 7.09
+Episode length: 13.80 +/- 8.42
+New best mean reward!
+Eval num_timesteps=45000, episode_reward=7.36 +/- 3.47
+Episode length: 8.80 +/- 3.71
+Eval num_timesteps=50000, episode_reward=14.76 +/- 7.17
+Episode length: 18.20 +/- 9.37
+New best mean reward!
+Training of DQN on highway-fast-v0 finished.
+  Run 1 HParams: {'learning_rate': 0.0001}, Mean Reward (Best Model): 21.22
+  New best found for DQN on highway-fast-v0: Mean Reward = 21.22
+[34m[1mwandb[0m: [33mWARNING[0m `format` argument was not provided, defaulting to `gif`. This parameter will be required in v0.20.0, please specify the format explicitly.
+[34m[1mwandb[0m: [33mWARNING[0m `fps` argument does not affect the frame rate of the video when providing a file path or raw bytes.
+Deleted local video file: ./rl_logs/DQN_highway-fast-v0_run_0/videos/DQN_highway-fast-v0-episode-0.mp4
+[34m[1mwandb[0m: [33mWARNING[0m `format` argument was not provided, defaulting to `gif`. This parameter will be required in v0.20.0, please specify the format explicitly.
+[34m[1mwandb[0m: [33mWARNING[0m `fps` argument does not affect the frame rate of the video when providing a file path or raw bytes.
+Deleted local video file: ./rl_logs/DQN_highway-fast-v0_run_0/videos/DQN_highway-fast-v0-episode-1.mp4
+[34m[1mwandb[0m: [33mWARNING[0m `format` argument was not provided, defaulting to `gif`. This parameter will be required in v0.20.0, please specify the format explicitly.
+[34m[1mwandb[0m: [33mWARNING[0m `fps` argument does not affect the frame rate of the video when providing a file path or raw bytes.
+Deleted local video file: ./rl_logs/DQN_highway-fast-v0_run_0/videos/DQN_highway-fast-v0-episode-10.mp4
+[34m[1mwandb[0m: [33mWARNING[0m `format` argument was not provided, defaulting to `gif`. This parameter will be required in v0.20.0, please specify the format explicitly.
+[34m[1mwandb[0m: [33mWARNING[0m `fps` argument does not affect the frame rate of the video when providing a file path or raw bytes.
+Deleted local video file: ./rl_logs/DQN_highway-fast-v0_run_0/videos/DQN_highway-fast-v0-episode-11.mp4
+[34m[1mwandb[0m: [33mWARNING[0m `format` argument was not provided, defaulting to `gif`. This parameter will be required in v0.20.0, please specify the format explicitly.
+[34m[1mwandb[0m: [33mWARNING[0m `fps` argument does not affect the frame rate of the video when providing a file path or raw bytes.
+Deleted local video file: ./rl_logs/DQN_highway-fast-v0_run_0/videos/DQN_highway-fast-v0-episode-12.mp4
+[34m[1mwandb[0m: [33mWARNING[0m `format` argument was not provided, defaulting to `gif`. This parameter will be required in v0.20.0, please specify the format explicitly.
+[34m[1mwandb[0m: [33mWARNING[0m `fps` argument does not affect the frame rate of the video when providing a file path or raw bytes.
+Deleted local video file: ./rl_logs/DQN_highway-fast-v0_run_0/videos/DQN_highway-fast-v0-episode-13.mp4
+[34m[1mwandb[0m: [33mWARNING[0m `format` argument was not provided, defaulting to `gif`. This parameter will be required in v0.20.0, please specify the format explicitly.
+[34m[1mwandb[0m: [33mWARNING[0m `fps` argument does not affect the frame rate of the video when providing a file path or raw bytes.
+Deleted local video file: ./rl_logs/DQN_highway-fast-v0_run_0/videos/DQN_highway-fast-v0-episode-14.mp4
+[34m[1mwandb[0m: [33mWARNING[0m `format` argument was not provided, defaulting to `gif`. This parameter will be required in v0.20.0, please specify the format explicitly.
+[34m[1mwandb[0m: [33mWARNING[0m `fps` argument does not affect the frame rate of the video when providing a file path or raw bytes.
+Deleted local video file: ./rl_logs/DQN_highway-fast-v0_run_0/videos/DQN_highway-fast-v0-episode-15.mp4
+[34m[1mwandb[0m: [33mWARNING[0m `format` argument was not provided, defaulting to `gif`. This parameter will be required in v0.20.0, please specify the format explicitly.
+[34m[1mwandb[0m: [33mWARNING[0m `fps` argument does not affect the frame rate of the video when providing a file path or raw bytes.
+Deleted local video file: ./rl_logs/DQN_highway-fast-v0_run_0/videos/DQN_highway-fast-v0-episode-16.mp4
+[34m[1mwandb[0m: [33mWARNING[0m `format` argument was not provided, defaulting to `gif`. This parameter will be required in v0.20.0, please specify the format explicitly.
+[34m[1mwandb[0m: [33mWARNING[0m `fps` argument does not affect the frame rate of the video when providing a file path or raw bytes.
+Deleted local video file: ./rl_logs/DQN_highway-fast-v0_run_0/videos/DQN_highway-fast-v0-episode-17.mp4
+[34m[1mwandb[0m: [33mWARNING[0m `format` argument was not provided, defaulting to `gif`. This parameter will be required in v0.20.0, please specify the format explicitly.
+[34m[1mwandb[0m: [33mWARNING[0m `fps` argument does not affect the frame rate of the video when providing a file path or raw bytes.
+Deleted local video file: ./rl_logs/DQN_highway-fast-v0_run_0/videos/DQN_highway-fast-v0-episode-18.mp4
+[34m[1mwandb[0m: [33mWARNING[0m `format` argument was not provided, defaulting to `gif`. This parameter will be required in v0.20.0, please specify the format explicitly.
+[34m[1mwandb[0m: [33mWARNING[0m `fps` argument does not affect the frame rate of the video when providing a file path or raw bytes.
+Deleted local video file: ./rl_logs/DQN_highway-fast-v0_run_0/videos/DQN_highway-fast-v0-episode-19.mp4
+[34m[1mwandb[0m: [33mWARNING[0m `format` argument was not provided, defaulting to `gif`. This parameter will be required in v0.20.0, please specify the format explicitly.
+[34m[1mwandb[0m: [33mWARNING[0m `fps` argument does not affect the frame rate of the video when providing a file path or raw bytes.
+Deleted local video file: ./rl_logs/DQN_highway-fast-v0_run_0/videos/DQN_highway-fast-v0-episode-2.mp4
+[34m[1mwandb[0m: [33mWARNING[0m `format` argument was not provided, defaulting to `gif`. This parameter will be required in v0.20.0, please specify the format explicitly.
+[34m[1mwandb[0m: [33mWARNING[0m `fps` argument does not affect the frame rate of the video when providing a file path or raw bytes.
+Deleted local video file: ./rl_logs/DQN_highway-fast-v0_run_0/videos/DQN_highway-fast-v0-episode-20.mp4
+[34m[1mwandb[0m: [33mWARNING[0m `format` argument was not provided, defaulting to `gif`. This parameter will be required in v0.20.0, please specify the format explicitly.
+[34m[1mwandb[0m: [33mWARNING[0m `fps` argument does not affect the frame rate of the video when providing a file path or raw bytes.
+Deleted local video file: ./rl_logs/DQN_highway-fast-v0_run_0/videos/DQN_highway-fast-v0-episode-21.mp4
+[34m[1mwandb[0m: [33mWARNING[0m `format` argument was not provided, defaulting to `gif`. This parameter will be required in v0.20.0, please specify the format explicitly.
+[34m[1mwandb[0m: [33mWARNING[0m `fps` argument does not affect the frame rate of the video when providing a file path or raw bytes.
+Deleted local video file: ./rl_logs/DQN_highway-fast-v0_run_0/videos/DQN_highway-fast-v0-episode-3.mp4
+[34m[1mwandb[0m: [33mWARNING[0m `format` argument was not provided, defaulting to `gif`. This parameter will be required in v0.20.0, please specify the format explicitly.
+[34m[1mwandb[0m: [33mWARNING[0m `fps` argument does not affect the frame rate of the video when providing a file path or raw bytes.
+Deleted local video file: ./rl_logs/DQN_highway-fast-v0_run_0/videos/DQN_highway-fast-v0-episode-4.mp4
+[34m[1mwandb[0m: [33mWARNING[0m `format` argument was not provided, defaulting to `gif`. This parameter will be required in v0.20.0, please specify the format explicitly.
+[34m[1mwandb[0m: [33mWARNING[0m `fps` argument does not affect the frame rate of the video when providing a file path or raw bytes.
+Deleted local video file: ./rl_logs/DQN_highway-fast-v0_run_0/videos/DQN_highway-fast-v0-episode-5.mp4
+[34m[1mwandb[0m: [33mWARNING[0m `format` argument was not provided, defaulting to `gif`. This parameter will be required in v0.20.0, please specify the format explicitly.
+[34m[1mwandb[0m: [33mWARNING[0m `fps` argument does not affect the frame rate of the video when providing a file path or raw bytes.
+Deleted local video file: ./rl_logs/DQN_highway-fast-v0_run_0/videos/DQN_highway-fast-v0-episode-6.mp4
+[34m[1mwandb[0m: [33mWARNING[0m `format` argument was not provided, defaulting to `gif`. This parameter will be required in v0.20.0, please specify the format explicitly.
+[34m[1mwandb[0m: [33mWARNING[0m `fps` argument does not affect the frame rate of the video when providing a file path or raw bytes.
+Deleted local video file: ./rl_logs/DQN_highway-fast-v0_run_0/videos/DQN_highway-fast-v0-episode-7.mp4
+[34m[1mwandb[0m: [33mWARNING[0m `format` argument was not provided, defaulting to `gif`. This parameter will be required in v0.20.0, please specify the format explicitly.
+[34m[1mwandb[0m: [33mWARNING[0m `fps` argument does not affect the frame rate of the video when providing a file path or raw bytes.
+Deleted local video file: ./rl_logs/DQN_highway-fast-v0_run_0/videos/DQN_highway-fast-v0-episode-8.mp4
+[34m[1mwandb[0m: [33mWARNING[0m `format` argument was not provided, defaulting to `gif`. This parameter will be required in v0.20.0, please specify the format explicitly.
+[34m[1mwandb[0m: [33mWARNING[0m `fps` argument does not affect the frame rate of the video when providing a file path or raw bytes.
+Deleted local video file: ./rl_logs/DQN_highway-fast-v0_run_0/videos/DQN_highway-fast-v0-episode-9.mp4
+[34m[1mwandb[0m: [33mWARNING[0m `format` argument was not provided, defaulting to `gif`. This parameter will be required in v0.20.0, please specify the format explicitly.
+[34m[1mwandb[0m: [33mWARNING[0m `fps` argument does not affect the frame rate of the video when providing a file path or raw bytes.
+Deleted local video file: ./rl_logs/DQN_highway-fast-v0_run_0/videos/rl-video-episode-0.mp4
+[34m[1mwandb[0m: [33mWARNING[0m `format` argument was not provided, defaulting to `gif`. This parameter will be required in v0.20.0, please specify the format explicitly.
+[34m[1mwandb[0m: [33mWARNING[0m `fps` argument does not affect the frame rate of the video when providing a file path or raw bytes.
+Deleted local video file: ./rl_logs/DQN_highway-fast-v0_run_0/videos/rl-video-episode-10.mp4
+[34m[1mwandb[0m: [33mWARNING[0m `format` argument was not provided, defaulting to `gif`. This parameter will be required in v0.20.0, please specify the format explicitly.
+[34m[1mwandb[0m: [33mWARNING[0m `fps` argument does not affect the frame rate of the video when providing a file path or raw bytes.
+Deleted local video file: ./rl_logs/DQN_highway-fast-v0_run_0/videos/rl-video-episode-100.mp4
+[34m[1mwandb[0m: [33mWARNING[0m `format` argument was not provided, defaulting to `gif`. This parameter will be required in v0.20.0, please specify the format explicitly.
+[34m[1mwandb[0m: [33mWARNING[0m `fps` argument does not affect the frame rate of the video when providing a file path or raw bytes.
+Deleted local video file: ./rl_logs/DQN_highway-fast-v0_run_0/videos/rl-video-episode-110.mp4
+[34m[1mwandb[0m: [33mWARNING[0m `format` argument was not provided, defaulting to `gif`. This parameter will be required in v0.20.0, please specify the format explicitly.
+[34m[1mwandb[0m: [33mWARNING[0m `fps` argument does not affect the frame rate of the video when providing a file path or raw bytes.
+Deleted local video file: ./rl_logs/DQN_highway-fast-v0_run_0/videos/rl-video-episode-20.mp4
+[34m[1mwandb[0m: [33mWARNING[0m `format` argument was not provided, defaulting to `gif`. This parameter will be required in v0.20.0, please specify the format explicitly.
+[34m[1mwandb[0m: [33mWARNING[0m `fps` argument does not affect the frame rate of the video when providing a file path or raw bytes.
+Deleted local video file: ./rl_logs/DQN_highway-fast-v0_run_0/videos/rl-video-episode-30.mp4
+[34m[1mwandb[0m: [33mWARNING[0m `format` argument was not provided, defaulting to `gif`. This parameter will be required in v0.20.0, please specify the format explicitly.
+[34m[1mwandb[0m: [33mWARNING[0m `fps` argument does not affect the frame rate of the video when providing a file path or raw bytes.
+Deleted local video file: ./rl_logs/DQN_highway-fast-v0_run_0/videos/rl-video-episode-40.mp4
+[34m[1mwandb[0m: [33mWARNING[0m `format` argument was not provided, defaulting to `gif`. This parameter will be required in v0.20.0, please specify the format explicitly.
+[34m[1mwandb[0m: [33mWARNING[0m `fps` argument does not affect the frame rate of the video when providing a file path or raw bytes.
+Deleted local video file: ./rl_logs/DQN_highway-fast-v0_run_0/videos/rl-video-episode-50.mp4
+[34m[1mwandb[0m: [33mWARNING[0m `format` argument was not provided, defaulting to `gif`. This parameter will be required in v0.20.0, please specify the format explicitly.
+[34m[1mwandb[0m: [33mWARNING[0m `fps` argument does not affect the frame rate of the video when providing a file path or raw bytes.
+Deleted local video file: ./rl_logs/DQN_highway-fast-v0_run_0/videos/rl-video-episode-60.mp4
+[34m[1mwandb[0m: [33mWARNING[0m `format` argument was not provided, defaulting to `gif`. This parameter will be required in v0.20.0, please specify the format explicitly.
+[34m[1mwandb[0m: [33mWARNING[0m `fps` argument does not affect the frame rate of the video when providing a file path or raw bytes.
+Deleted local video file: ./rl_logs/DQN_highway-fast-v0_run_0/videos/rl-video-episode-70.mp4
+[34m[1mwandb[0m: [33mWARNING[0m `format` argument was not provided, defaulting to `gif`. This parameter will be required in v0.20.0, please specify the format explicitly.
+[34m[1mwandb[0m: [33mWARNING[0m `fps` argument does not affect the frame rate of the video when providing a file path or raw bytes.
+Deleted local video file: ./rl_logs/DQN_highway-fast-v0_run_0/videos/rl-video-episode-80.mp4
+[34m[1mwandb[0m: [33mWARNING[0m `format` argument was not provided, defaulting to `gif`. This parameter will be required in v0.20.0, please specify the format explicitly.
+[34m[1mwandb[0m: [33mWARNING[0m `fps` argument does not affect the frame rate of the video when providing a file path or raw bytes.
+Deleted local video file: ./rl_logs/DQN_highway-fast-v0_run_0/videos/rl-video-episode-90.mp4

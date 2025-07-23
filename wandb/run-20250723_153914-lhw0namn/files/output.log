@@ -1,0 +1,14 @@
+/Users/charlottecloutier/Documents/4A/venv/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /tmp/wandb-videos folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+Eval num_timesteps=5000, episode_reward=6.59 +/- 4.25
+Episode length: 7.80 +/- 4.53
+New best mean reward!
+Eval num_timesteps=10000, episode_reward=8.09 +/- 4.28
+Episode length: 9.40 +/- 4.57
+New best mean reward!
+Eval num_timesteps=15000, episode_reward=5.53 +/- 2.77
+Episode length: 6.70 +/- 2.83
+Eval num_timesteps=20000, episode_reward=7.79 +/- 3.83
+Episode length: 9.00 +/- 3.92
+Eval num_timesteps=25000, episode_reward=7.75 +/- 4.25
+Episode length: 8.90 +/- 4.50

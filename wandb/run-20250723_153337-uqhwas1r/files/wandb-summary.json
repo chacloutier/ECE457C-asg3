@@ -1,0 +1,1 @@
+{"_runtime":64,"error_message":"","_wandb":{"runtime":64},"rollout/ep_len_mean":7.74,"rollout/ep_rew_mean":6.5304875,"time/fps":80,"train/loss":0.049156275,"final/status":"failed","global_step":4969,"_timestamp":1.753299282575862e+09,"_step":926,"train/learning_rate":0.0001,"rollout/exploration_rate":0.05589}
